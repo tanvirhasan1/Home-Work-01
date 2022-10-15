@@ -1,0 +1,97 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .banner-content.pl-170{
+        padding-left: 70px;
+    }
+    .banner-car img {
+        width: 75%;
+    }
+    .banner-right-img {
+        position: absolute;
+        bottom: -33px;
+        right: 0;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .banner-area.pt-200 {
+        padding-top: 100px;
+    }
+    .banner-right-img{
+        display: none;
+    }
+    .promotion-wrapper {
+        width: 49%;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-area.pt-200 {
+        padding-top: 100px;
+    }
+    .banner-right-img{
+        display: none;
+    }
+    .banner-content.pl-170{
+        padding-left: 70px;
+    }
+    .promotion-wrapper {
+        width: 100%;
+    }
+    .feature-wrapper {
+        padding: 0;
+    }
+    .location{
+        margin-bottom: 30px;
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .heading-text h3 {
+        line-height: 2;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .banner-area.pt-200 {
+        padding-top: 100px;
+    }
+    .banner-text h2 {
+        font-size: 50px;
+    }
+    .banner-right-img{
+        display: none;
+    }
+    .banner-content.pl-170 {
+        padding-left: 15px;
+    }
+    .banner-text h2 > span {
+        font-size: 36px;
+    }
+    .promotion-wrapper {
+        width: 100%;
+    }
+    .feature-wrapper {
+        padding: 0;
+    }
+    .location{
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .single-promotion h3 {
+        font-size: 24px;
+    }
+    .feature-title h2{
+        font-size: 37px;
+    }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}

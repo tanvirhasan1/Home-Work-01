@@ -1,0 +1,357 @@
+/* CSS Index 
+-----------------------------------
+1. default css
+2. header
+3. banner area
+4. features area
+5. accordion area
+6. promotion area
+7. contact area
+8. footer 
+*/
+
+/* 1. default css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	overflow-x: hidden;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer-menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #313131;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 28px;
+	color: #8A8A8A;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+/* button style */
+.default-btn{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 22px 50px;
+	background: #EC2729;
+	box-shadow: 0px 1px 12px 1px rgba(0, 0, 0, 0.33);
+	text-transform: uppercase;
+	border-radius: 6px;
+	line-height: 1;
+	display: inline-block;
+	transition: .3s;
+}
+.default-btn:hover{
+	color: #fff;
+	background: #C20709;
+}
+/* 2. header */
+.heading-text h3 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1;
+}
+.main-menu ul li {
+	display: inline-block;
+	margin: 0 40px;
+}
+.main-menu ul li a {
+	font-size: 15px;
+	font-weight: 400;
+	color: #303030;
+	padding: 40px 0;
+	display: block;
+	transition:all .3s;
+}
+.main-menu ul li:hover > a {
+	color: #EC2729;
+	transform: scale(1.2);
+}
+
+/* 3. banner area */
+.banner-area{
+	background-color: transparent;
+	background-image: radial-gradient(at bottom left, #F7ED40 51%, #D5BE0C 100%);
+	opacity: 1;
+	position: relative;
+}
+.banner-text h2 {
+	color: #fff;
+	font-size: 77px;
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+.banner-text h2 > span{
+	color: #EC2729;
+	font-size: 40px;
+	display: block;
+}
+.banner-car img {
+	width: 100%;
+}
+.banner-right-img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* 4. features area */
+.feature-wrapper {
+	padding: 0 20px;
+}
+.feature-wrapper i {
+	font-size: 50px;
+	color: #EC2729;
+	margin-bottom: 25px;
+}
+.feature-wrapper h3{
+	color: #EC2729;
+	font-size: 25px;
+	font-weight: 600;
+}
+/* 5. accordion area */
+.accoridion-wrapper button {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: left;
+	padding: 10px 15px;
+	width: 100%;
+	position: relative;
+}
+.accoridion-wrapper button:hover,
+.accoridion-wrapper button:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.accoridion-wrapper button.collapsed::before{
+	content: "\f150";
+	font: var(--fa-font-solid);
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+}
+.accoridion-wrapper button::before{
+	content: "\f151";
+	font: var(--fa-font-solid);
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+}
+.accoridion-wrapper .card-header {
+	padding: 0;
+	margin-bottom: 0;
+	background-color: #EC2729;
+	border-bottom: none;
+}
+.accoridion-wrapper .card-body {
+	background: #C20709;
+}
+.accordion-list ul{
+	padding: 0;
+	padding-left: 25px;
+}
+.accordion-list ul li {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	list-style-type: disc;
+}
+.accoridion-wrapper .card{
+	border: none;
+}
+/* section title */
+.section-title h2 {
+	color: #EC2729;
+	font-size: 59px;
+	font-weight: 600;
+}
+/* 6. promotion area */
+.promotion-area{
+	background-size: cover;
+	background-position: bottom;
+}
+.promotion-wrapper {
+	width: 32.33%;
+}
+.single-promotion {
+	padding: 60px 0;
+	background: #fff;
+}
+.single-promotion h3{
+	color: #EC2729;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.single-promotion span{
+	color: #333;
+	font-size: 18px;
+}
+
+/* 7. contact area */
+.location iframe{
+	width: 100%;
+}
+.contact-input input{
+	padding: 0 15px;
+	width: 100%;
+	height: 45px;
+}
+.contact-textarea textarea{
+	padding: 15px;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+}
+.contact-textarea button{
+	cursor: pointer;
+}
+
+/* 8. footer  */
+.footer-title h3 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.copyright-border{
+	border-top: 1px solid #fff;
+}
+.copyright-text p{
+	color: #5C5C5C;
+	margin-bottom: 0;
+}
